@@ -560,8 +560,8 @@ print(result)
 MSc Data Science Student
 Cotality — Data Analyst
 
-📧 Connect on LinkedIn: [Your LinkedIn URL]
-🐙 GitHub: [Your GitHub URL]
+📧 Connect on LinkedIn: [https://www.linkedin.com/in/theravendrasahu/]
+🐙 GitHub: [https://github.com/theravendrasahu]
 
 ---
 
