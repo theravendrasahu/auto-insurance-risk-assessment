@@ -1,0 +1,55 @@
+---
+
+## How to Run
+
+**Step 1 — Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**Step 2 — Run scripts in order**
+```bash
+cd scripts
+python 01_data_exploration.py
+python 02_preprocessing.py
+python 03_feature_engineering.py
+python 04_model_training.py
+python 05_model_evaluation.py
+python 06_predict.py
+```
+
+Each script must be run from the folder containing 
+telematics_sample_dataset.csv or adjust the file path 
+in the script accordingly.
+
+---
+
+## Key Features of the System
+
+- Third-generation mobile sensor data (accelerometer, 
+  gyroscope, GPS)
+- Bluetooth vehicle verification for data integrity
+- Completeness override rule for fraud prevention
+- Cold start phased onboarding for new policyholders
+- Four models trained and compared fairly on identical data
+- Fully reproducible pipeline with fixed random seed 42
+
+---
+
+## Results
+
+XGBoost was selected as the final model with 94.2 percent 
+accuracy and AUC of 0.995. No High Risk driver was 
+misclassified as Low Risk across any model, confirming 
+the system's reliability for insurance applications.
+
+---
+
+## Technologies Used
+
+- Python 3.10
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib, Seaborn
+- Joblib
